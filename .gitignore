@@ -1,0 +1,22 @@
+# 数据文件
+*.parquet
+*.csv
+*.xlsx
+*.db
+*.json
+*.txt
+!papers_sample.txt
+!requirements.txt
+!README.md
+
+# 日志
+*.log
+
+# 虚拟环境
+venv/
+.venv/
+
+# 系统
+.DS_Store
+__pycache__/
+*.pyc
